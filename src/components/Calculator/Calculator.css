@@ -1,0 +1,31 @@
+
+.field {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.text-box {
+    width: 100px;
+}
+.drop-down, .btn-calculate {
+    width: 65px;
+}
+
+.text-box:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-box::placeholder {
+  color: #999;
+}
+
+.cal-heading {
+    color: royalblue;
+}
+
+.result-section {
+    color: #17bba4;
+}
